@@ -43,11 +43,6 @@ docker build -t go2-slam .
 
 # Container starten
 docker run --network host go2-slam
-
-
-## 5. Autoren
-* **Namen:** Franz, Lennackers, Nothelle, Schiffmann 
-* **Institution:** Fakultät für Fahrzeugsysteme und Produktion, TH Köln 
 ```
 
 
