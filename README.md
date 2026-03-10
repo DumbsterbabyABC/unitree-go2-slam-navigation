@@ -9,6 +9,14 @@ Dieses Repository enthält die technische Implementierung eines autonomen Securi
 ## 1. Projektübersicht
 Das Ziel des Projekts war die Realisierung einer SLAM-basierten Kartierung und Navigation in Innenräumen der TH Köln. Dabei wurde auf zusätzliche 3D-LiDAR-Hardware verzichtet, um die Praxistauglichkeit des serienmäßig verbauten Front-LiDARs zu evaluieren.
 
+## Dokumentation
+Für detaillierte Informationen zu den theoretischen Grundlagen, der Systemarchitektur und der Fehleranalyse lies bitte unseren Abschlussbericht:
+
+👉 **[Abschlussbericht (PDF) herunterladen](docs/unitree-go2-slam-navigation.pdf)**
+
+[![Paper](https://img.shields.io/badge/Status-Abgeschlossen-green.svg)]() 
+[![Format](https://img.shields.io/badge/Format-PDF-red.svg)]()
+
 ### Kernkomponenten:
 * **Hardware:** Unitree Go2 Education (Front-LiDAR)
 * **Middleware:** ROS 2 Humble (Ubuntu 22.04)
