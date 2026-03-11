@@ -1,7 +1,0 @@
-#Sensorposition einstellen
-ros2 run tf2_ros static_transform_publisher 0.25 0 0.05 0 0 0 base_link utlidar_lidar
-
-#Kiss icp starten
-sudo docker exec -d unitree_ros2_container bash -c 'source /opt/ros/humble/setup.bash && source /basis/unitree_ros2/setup.sh && source /root/kiss_ws/install/setup.bash && ros2 launch kiss_icp odometry.launch.py topic:=/utlidar/cloud_deskewed odom_frame:=odom child_frame:=base_link' && echo "KISS-ICP gestartet"
-
-python3 lidar_setup.py --pos 0.29 0.0 -0.08 --quat 0.0 0.706825181105366 0 0,7073882691671998
